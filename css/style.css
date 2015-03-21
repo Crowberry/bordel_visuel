@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'manuel-font';
+    src: url('../typo/manuelfont/manuel-font-webfont.eot');
+    src: url('../typo/manuelfont/manuel-font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../typo/manuelfont/manuel-font-webfont.woff2') format('woff2'),
+         url('../typo/manuelfont/manuel-font-webfont.woff') format('woff'),
+         url('../typo/manuelfont/manuel-font-webfont.ttf') format('truetype'),
+         url('../typo/manuelfont/manuel-font-webfont.svg#manuel-fontfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+html, body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+
+
+    font-family: 'manuel-font';
+    font-size: 28px;
+}
+
+label {
+	margin: 10px 0 ;
+  	display: inline-block;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ol {
+	list-style: none;
+}
+
+ol li {
+	float: left;
+	
+	position: relative;
+}
+
+ol li a {
+	height: 40px;
+  	display: block;
+
+}
+
+ol li span {
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	-webkit-transition :  all .5s ease;
+	-moz-transition :     all .5s ease;
+	-ms-transition :      all .5s ease;
+	-o-transition :       all .5s ease;
+	transition :          all .5s ease;
+	pointer-events: none;
+
+}
+
+ol li:hover span{
+	background: black;
+}
+
+
+h1 {
+	margin: 60px 0 20px 0;
+	letter-spacing: 8px;
+}
+
+h3 {
+	margin: 30px 0;
+}
